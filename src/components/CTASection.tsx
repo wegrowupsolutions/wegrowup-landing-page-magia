@@ -35,21 +35,14 @@ const CTASection = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              variant="hero" 
-              size="lg" 
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-4 shadow-glow"
-            >
-              Começar Gratuitamente
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+          <div className="flex justify-center">
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8 py-4"
+              className="border-[#30B27F] bg-[#30B27F] text-white hover:bg-[#40D68F] hover:border-[#40D68F] text-lg px-8 py-4 transition-smooth shadow-lg hover:shadow-xl"
             >
-              Falar com Especialista
+              Começar Gratuitamente
+              <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
 
