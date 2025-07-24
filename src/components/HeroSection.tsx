@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6 leading-tight text-center">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6 leading-tight text-center font-garamond">
             <span className="block">Soluções de Inteligência Artificial</span>
             <span className="block text-transparent bg-gradient-to-r from-primary-foreground to-accent-foreground bg-clip-text">
               para o seu negócio
