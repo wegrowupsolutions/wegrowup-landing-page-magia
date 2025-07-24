@@ -25,10 +25,10 @@ const HeroSection = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Soluções de Inteligência
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6 leading-tight text-center">
+            <span className="block">Soluções de Inteligência Artificial</span>
             <span className="block text-transparent bg-gradient-to-r from-primary-foreground to-accent-foreground bg-clip-text">
-              Artificial para o seu negócio
+              para o seu negócio
             </span>
           </h1>
 
