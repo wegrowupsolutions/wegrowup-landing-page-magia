@@ -26,9 +26,9 @@ const HeroSection = () => {
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Transforme Seu
+            Soluções de Inteligência
             <span className="block text-transparent bg-gradient-to-r from-primary-foreground to-accent-foreground bg-clip-text">
-              Negócio Digital
+              Artificial para o seu negócio
             </span>
           </h1>
 
