@@ -37,7 +37,7 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex">
             <Button variant="hero" size="lg">
-              Começar Agora
+              Fale com um consultor
             </Button>
           </div>
 
@@ -83,7 +83,7 @@ const Header = () => {
               </a>
               <div className="px-3 py-2">
                 <Button variant="hero" className="w-full">
-                  Começar Agora
+                  Fale com um consultor
                 </Button>
               </div>
             </div>
