@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mt-12 sm:mt-16 max-w-3xl mx-auto">
             <div className="text-center">
               <div className="text-3xl lg:text-4xl font-bold text-primary-foreground mb-2">
                 10K+
