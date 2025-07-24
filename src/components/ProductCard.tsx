@@ -17,7 +17,7 @@ const ProductCard = ({ title, description, features, image, reverse = false, id 
         <div className={`flex flex-col ${reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-20`}>
           {/* Content */}
           <div className="flex-1 max-w-xl">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight font-garamond">
               {title}
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
