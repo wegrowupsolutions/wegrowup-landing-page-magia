@@ -12,12 +12,6 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Desktop CTA */}
-          <div className="flex">
-            <Button variant="hero" size="lg">
-              Fale com um consultor
-            </Button>
-          </div>
         </div>
 
       </div>

@@ -40,17 +40,15 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-glow text-lg px-8 py-4">
-              Explorar Soluções
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+          <div className="flex justify-center">
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8 py-4"
+              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-4 transition-smooth"
+              onClick={() => document.getElementById('wepay')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Assistir Demo
+              Explorar Soluções
+              <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
 
