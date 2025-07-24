@@ -5,7 +5,7 @@ import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 
 // Import product images
-import wepayImage from '@/assets/wepay-hero.jpg';
+import wepayImage from '@/assets/dashboard-mobile.jpg';
 import weconectImage from '@/assets/weconect-hero.jpg';
 import weshopImage from '@/assets/weshop-hero.jpg';
 import seuagenteImage from '@/assets/seuagente-hero.jpg';
