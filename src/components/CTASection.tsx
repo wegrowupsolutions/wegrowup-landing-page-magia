@@ -41,7 +41,7 @@ const CTASection = () => {
               size="lg" 
               className="border-[#30B27F] bg-[#30B27F] text-white hover:bg-[#40D68F] hover:border-[#40D68F] text-lg px-8 py-4 transition-smooth shadow-lg hover:shadow-xl"
             >
-              Começar Gratuitamente
+              Fale com um consultor
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
