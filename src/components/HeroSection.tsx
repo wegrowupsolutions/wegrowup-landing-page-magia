@@ -44,7 +44,7 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-[#30B27F] text-[#30B27F] hover:bg-[#30B27F] hover:text-white text-lg px-8 py-4 transition-smooth"
+              className="border-[#30B27F] bg-[#30B27F] text-white hover:bg-[#40D68F] hover:border-[#40D68F] text-lg px-8 py-4 transition-smooth shadow-lg hover:shadow-xl"
               onClick={() => document.getElementById('wepay')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Explorar Soluções
