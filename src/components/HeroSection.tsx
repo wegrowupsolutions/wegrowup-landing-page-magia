@@ -33,10 +33,9 @@ const HeroSection = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg sm:text-xl lg:text-2xl text-primary-foreground/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Descubra o ecossistema completo de soluções digitais da Wegrowup. 
-            Pagamentos, marketplace, conexão profissional e atendimento inteligente 
-            em uma única plataforma revolucionária.
+          <p className="text-lg sm:text-xl lg:text-2xl text-primary-foreground/90 mb-12 max-w-3xl mx-auto leading-relaxed text-center">
+            <span className="block">Potencialize seus resultados com nossas soluções</span>
+            <span className="block">de IA integradas em uma única plataforma</span>
           </p>
 
           {/* CTA Buttons */}
